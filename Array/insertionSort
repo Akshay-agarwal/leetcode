@@ -1,0 +1,12 @@
+def InsertSort(A):
+    '''Insertion sort of a list'''
+    for k in range(1,len(A)):
+        curr = A[k]             #store the current value
+        j = k                   #sotre the index of the value
+        while j > 0 and A[j-1] > curr:
+            A[j] = A[j-1]
+            j -= 1
+        A[j] = curr
+    return A
+c = InsertSort([1,5,3,2])
+print(c)
