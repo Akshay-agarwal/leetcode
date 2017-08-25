@@ -9,15 +9,13 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        if len(nums) == 1:
-            return nums[0]
-        d = {}
+        """Boyer Moore's voting Algorithm"""
+        count, candidate = 0, 0
         for num in nums:
-            if num in d:
-                print(num)
-                d[num] += 1
-                if d[num] == (len(nums)//2) + 1:
-                    return num
+            if num == candidate:
+                count += 1
+            elif count == 0:
+                candidate, count = num, 1
             else:
-                print(num)
-                d[num] = 1
+                count -= 1
+        return candidate
