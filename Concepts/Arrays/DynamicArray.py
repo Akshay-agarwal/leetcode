@@ -1,7 +1,6 @@
 import sys
 import ctypes
 
-
 class DynamicArray(object):
     '''An Array implementation of python list'''
 
@@ -59,7 +58,6 @@ class DynamicArray(object):
             self._A[j] = self._A[j-1]       #push each element till index k right by 1
         self._A[k] = value                  #set the value at index k
         self._n += 1
-
 
 
     def __str__(self):
