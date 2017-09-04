@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b69f41-69be-4142-8a50-02ec0cc25e9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Arrays/8:27:2017/121.BestTimetoBuyandSellStock.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Arrays/8:27:2017/152.MaximumProductSubarray.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Arrays/8:27:2017/53.MaximumSubarray.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Arrays/8:27:2017/643.MaximumAverageSubarrayI.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Arrays/8:29:2017/11.ContainerWithMostWater.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Arrays/8:29:2017/48.RotateImage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Arrays/9:2:2017/15.3Sum" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Arrays/9:2:2017/3SumClosest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Arrays/9:2:2017/611.ValidTriangleNumber.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Concepts/Arrays/DynamicArray.py" afterPath="$PROJECT_DIR$/Concepts/Arrays/DynamicArray.py" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="268.MissingNumber.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problems/Arrays/8:25:2017/268.MissingNumber.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="53.MaximumSubarray.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problems/Arrays/8:27:2017/53.MaximumSubarray.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,11 +105,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="15.3Sum" pinned="false" current-in-tab="true">
+      <file leaf-file-name="15.3Sum" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problems/Arrays/9:2:2017/15.3Sum">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="682">
               <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="611.ValidTriangleNumber.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problems/Arrays/9:2:2017/611.ValidTriangleNumber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -185,6 +177,7 @@
         <option value="$PROJECT_DIR$/Problems/Arrays/8:29:2017/48.RotateImage.py" />
         <option value="$PROJECT_DIR$/Problems/Arrays/9:2:2017/3SumClosest.py" />
         <option value="$PROJECT_DIR$/Problems/Arrays/9:2:2017/15.3Sum" />
+        <option value="$PROJECT_DIR$/Problems/Arrays/9:2:2017/611.ValidTriangleNumber.py" />
       </list>
     </option>
   </component>
@@ -963,6 +956,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Arrays/9:2:2017/611.ValidTriangleNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding />
         </state>
       </provider>
