@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b69f41-69be-4142-8a50-02ec0cc25e9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Strings/9:6:2017/345.ReverseVowelsofaString.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Strings/9:6:2017/557.ReverseWordsinaStringIII.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leetcode.iws" />
@@ -23,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="643.MaximumAverageSubarrayI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problems/Arrays/8:27:2017/643.MaximumAverageSubarrayI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DynamicArray.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Concepts/Arrays/DynamicArray.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,11 +105,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="345.ReverseVowelsofaString.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="345.ReverseVowelsofaString.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problems/Strings/9:6:2017/345.ReverseVowelsofaString.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="29" column="83" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="557.ReverseWordsinaStringIII.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problems/Strings/9:6:2017/557.ReverseWordsinaStringIII.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -181,6 +181,7 @@
         <option value="$PROJECT_DIR$/Problems/Arrays/9:2:2017/238.ProductofArrayExceptSelf.py" />
         <option value="$PROJECT_DIR$/Problems/Strings/9:6:2017/344.ReverseString.py" />
         <option value="$PROJECT_DIR$/Problems/Strings/9:6:2017/345.ReverseVowelsofaString.py" />
+        <option value="$PROJECT_DIR$/Problems/Strings/9:6:2017/557.ReverseWordsinaStringIII.py" />
       </list>
     </option>
   </component>
@@ -595,13 +596,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Problems/Arrays/8:23:2017/442.FindAllDuplicatesinanArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Problems/Arrays/8:23:2017/287.FindtheDuplicateNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -879,6 +873,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="83" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Strings/9:6:2017/557.ReverseWordsinaStringIII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding />
         </state>
       </provider>
