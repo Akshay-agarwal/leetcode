@@ -1,9 +1,10 @@
 import sys
 array = [None]
-for k in range(1000):
+for k in range(20):
+    array.append('akshay')
     a = len(array)
     b = sys.getsizeof(array)
     print('Length :{0:3d}; Size in bytes :{1:4d}'.format(a,b));
-    array.append('akshay')
+
 
 
