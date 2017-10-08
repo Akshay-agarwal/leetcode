@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b69f41-69be-4142-8a50-02ec0cc25e9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Searching &amp; Sorting/Sorting/BubbleSort.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Searching &amp; Sorting/Sorting/SelectionSort.py" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,16 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="entry.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Concepts/Arrays/entry.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DynamicArraySize" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Concepts/Arrays/DynamicArraySize">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,11 +61,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BubbleSort.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BubbleSort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Searching &amp; Sorting/Sorting/BubbleSort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectionSort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Searching &amp; Sorting/Sorting/SelectionSort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -187,6 +186,7 @@
         <option value="$PROJECT_DIR$/Searching &amp; Sorting/LinearSearch.py" />
         <option value="$PROJECT_DIR$/Searching &amp; Sorting/BinarySearch.py" />
         <option value="$PROJECT_DIR$/Searching &amp; Sorting/Sorting/BubbleSort.py" />
+        <option value="$PROJECT_DIR$/Searching &amp; Sorting/Sorting/SelectionSort.py" />
       </list>
     </option>
   </component>
@@ -256,6 +256,12 @@
               <item name="Searching &amp; Sorting" type="462c0819:PsiDirectoryNode" />
               <item name="Searching" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Searching &amp; Sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -285,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BubbleSort">
+  <component name="RunManager" selected="Python.SelectionSort">
     <configuration name="BinarySearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,6 +356,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="leetcode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Searching &amp; Sorting/Searching/LinearSearch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="SelectionSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Searching &amp; Sorting/Sorting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Searching &amp; Sorting/Sorting/SelectionSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -501,37 +524,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration name="tictactoe" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="leetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/tictactoe.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tictactoe" />
-      <item index="1" class="java.lang.String" itemvalue="Python.DynamicArraySize" />
-      <item index="2" class="java.lang.String" itemvalue="Python.LinearSearch" />
-      <item index="3" class="java.lang.String" itemvalue="Python.BinarySearch" />
-      <item index="4" class="java.lang.String" itemvalue="Python.BubbleSort" />
+      <item index="0" class="java.lang.String" itemvalue="Python.DynamicArraySize" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LinearSearch" />
+      <item index="2" class="java.lang.String" itemvalue="Python.BinarySearch" />
+      <item index="3" class="java.lang.String" itemvalue="Python.BubbleSort" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SelectionSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.BubbleSort" />
-        <item index="1" class="java.lang.String" itemvalue="Python.BinarySearch" />
-        <item index="2" class="java.lang.String" itemvalue="Python.LinearSearch" />
-        <item index="3" class="java.lang.String" itemvalue="Python.DynamicArraySize" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tictactoe" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SelectionSort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BubbleSort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.BinarySearch" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LinearSearch" />
+        <item index="4" class="java.lang.String" itemvalue="Python.DynamicArraySize" />
       </list>
     </recent_temporary>
   </component>
@@ -591,7 +597,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Array/DynamicArray.py" />
     <entry file="file://$PROJECT_DIR$/Array/dyArrayTest.py" />
     <entry file="file://$PROJECT_DIR$/Array/entry.py" />
     <entry file="file://$PROJECT_DIR$/Array/tictactoe.py" />
@@ -929,6 +934,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Searching &amp; Sorting/Sorting/SelectionSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding />
         </state>
       </provider>
