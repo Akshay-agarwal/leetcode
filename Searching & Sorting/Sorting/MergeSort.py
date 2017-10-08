@@ -1,7 +1,6 @@
 def merge(l,r):
-    print(l,r)
     result = []
-    i, j = 0,0
+    i,j = 0,0
     while i < len(l) and j < len(r):
         if l[i] < r[j]:
             result.append(l[i])
@@ -9,17 +8,18 @@ def merge(l,r):
         else:
             result.append(r[j])
             j += 1
-    result += l[i:]
-    result += r[j:]
+    if i < len(l):
+        result += l[i:]
+    else:
+        result += r[j:]
     return result
 
 def mergeSort(arr):
-    if len(arr) <= 1:
+    if len(arr) <=1:
         return arr
     mid = len(arr) // 2
-    print(arr[mid:], arr[:mid])
     l = mergeSort(arr[:mid])
     r = mergeSort(arr[mid:])
     return merge(l,r)
 
-print(mergeSort([1,4,2,9,14,54,6,5,8,12,11,7]))
+print(mergeSort([1, 2, 4, 9, 14, 54,5, 6, 7, 8, 11, 12]))
