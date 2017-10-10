@@ -20,7 +20,7 @@ def partition(arr, low, high):
     arr[low], arr[pivotIndex] = arr[pivotIndex], arr[low]
     border = low
 
-    for i in range(low+1, high+1):
+    for i in range(low, high+1):
         if arr[i] < pivot:
             border += 1
             arr[border], arr[i] = arr[i], arr[border]
