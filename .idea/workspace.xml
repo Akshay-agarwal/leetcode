@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b69f41-69be-4142-8a50-02ec0cc25e9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Tree/94.InOrderTraversal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Tree/145.PostOrder.py" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="94.InOrderTraversal.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="94.InOrderTraversal.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problems/Tree/94.InOrderTraversal.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="66.PlusOne.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problems/Arrays/10:7:2017/66.PlusOne.py">
+      <file leaf-file-name="145.PostOrder.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problems/Tree/145.PostOrder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="405">
+              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -141,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Problems/Arrays/8:23:2017/485.MaxConsecutiveOnes.py" />
         <option value="$PROJECT_DIR$/Problems/Arrays/8:23:2017/448.FindAllNumbersDisappearedinanArray.py" />
         <option value="$PROJECT_DIR$/Problems/Arrays/8:23:2017/283.MoveZeroes.py" />
         <option value="$PROJECT_DIR$/Problems/Arrays/8:23:2017/217.ContainsDuplicate.py" />
@@ -192,6 +191,7 @@
         <option value="$PROJECT_DIR$/Problems/Tree/450.DeleteANodeInBST.py" />
         <option value="$PROJECT_DIR$/Problems/Tree/100.SameTree.py" />
         <option value="$PROJECT_DIR$/Problems/Tree/94.InOrderTraversal.py" />
+        <option value="$PROJECT_DIR$/Problems/Tree/145.PostOrder.py" />
       </list>
     </option>
   </component>
@@ -590,13 +590,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Problems/Arrays/8:23:2017/26.RemoveDuplicatesfromSortedArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Problems/Arrays/8:23:2017/219.Contains DuplicateII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -968,6 +961,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Tree/145.PostOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding />
         </state>
       </provider>
