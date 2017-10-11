@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b69f41-69be-4142-8a50-02ec0cc25e9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Tree/102.LevelOrderTraversal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/Tree/107.LevelOrderTraversalII.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leetcode.iws" />
@@ -92,21 +92,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="102.LevelOrderTraversal.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="102.LevelOrderTraversal.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problems/Tree/102.LevelOrderTraversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="268.MissingNumber.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problems/Arrays/8:25:2017/268.MissingNumber.py">
+      <file leaf-file-name="107.LevelOrderTraversalII.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problems/Tree/107.LevelOrderTraversalII.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="465">
+              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -142,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Problems/Arrays/8:23:2017/217.ContainsDuplicate.py" />
         <option value="$PROJECT_DIR$/Problems/Arrays/8:23:2017/27.RemoveElement.py" />
         <option value="$PROJECT_DIR$/Problems/Arrays/8:23:2017/26.RemoveDuplicatesfromSortedArray.py" />
         <option value="$PROJECT_DIR$/Problems/Arrays/8:23:2017/219.Contains DuplicateII.py" />
@@ -193,6 +192,7 @@
         <option value="$PROJECT_DIR$/Problems/Tree/145.PostOrder.py" />
         <option value="$PROJECT_DIR$/Problems/Tree/144.PreOrder.py" />
         <option value="$PROJECT_DIR$/Problems/Tree/102.LevelOrderTraversal.py" />
+        <option value="$PROJECT_DIR$/Problems/Tree/107.LevelOrderTraversalII.py" />
       </list>
     </option>
   </component>
@@ -591,13 +591,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Problems/Arrays/8:23:2017/287.FindtheDuplicateNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Problems/Arrays/8:24:2017/Add to List 628.MaximumProductofThree Numbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -970,8 +963,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problems/Tree/102.LevelOrderTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Tree/107.LevelOrderTraversalII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding />
         </state>
       </provider>
