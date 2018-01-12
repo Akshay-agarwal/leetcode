@@ -59,9 +59,7 @@ class DynamicArray(object):
         self._A[k] = value                  #set the value at index k
         self._n += 1
 
-
-    def __str__(self):
-        s = '['
-        for i in range((self._n) - 1):
-            s = s + str(self._A[i]) + ','
-        return s + str(self._A[self._n-1]) + ']'
+d = DynamicArray()
+p = DynamicArray()
+print(d,p)
+d.append(2)
