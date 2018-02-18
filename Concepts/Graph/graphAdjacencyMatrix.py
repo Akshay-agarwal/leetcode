@@ -56,4 +56,4 @@ for i in range(6):
     g.addVertex(i)
 print(g.vertList)
 g.addEdge(1,2,5)
-print(g.vertList[1].connectedTo)
+print(g.vertList[1].getConnections())
